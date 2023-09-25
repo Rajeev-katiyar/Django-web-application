@@ -1,0 +1,163 @@
+footer { 
+	width:1490px;
+	background-color:#061a23; 
+	min-height:200px; 
+	padding:0px 0px 50px 20px ;
+  
+	
+}
+footer p { 
+	font-size:15px; 
+	color:#CCC; 
+	padding-bottom:0px; 
+	margin-bottom:8px;
+}
+
+
+
+
+.row { 
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: 100px;
+ } 
+.column{
+	display: inline-block;
+}
+
+.heading{
+	font-size: 25px;
+	color:red;
+	padding:0px 60px 0px 50px ;
+	
+	
+}
+.mb10 { 
+	width: 200px;
+	
+	column-fill:balance;
+	padding-bottom:15px ;
+	font-size: 15px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-weight: 200;
+	padding-top: 10px;
+
+}
+
+
+.footer_list { 
+    margin:0px ;
+    list-style-type:none ;
+    font-size:15px;
+    padding:0px 60px 0px 40px ;
+	
+}
+
+
+
+
+.footer_list li {
+	padding:5px 20px 5px 20px;
+}
+.footer_list li a{ 
+	color:#CCC;
+	text-decoration:none;
+	font-size: 15px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-weight: 200;
+}
+
+	
+
+.footer_list li a:hover{ 
+	color:#fff; 
+	
+}
+
+
+.fleft { float:left;}
+.padding-right { padding-right:5px; }
+
+
+.footer_list1 {
+    
+	margin:0px; 
+	list-style-type: none; 
+	padding: 0px 0px 0px 50x;
+ 
+}
+.footer__list1 li p { 
+	display:table;
+
+	
+    
+
+}
+.footer_list1 li a:hover { 
+        text-decoration: none;
+		color:black;
+}
+.footer_list1 li i { 
+	margin-top:5px;
+		
+}
+
+
+
+
+.bottom_border { 
+	border-bottom:2px solid #061a23; 
+	padding-bottom:20px;
+}
+
+.footer_bottom_list {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.footer_bottom_list li { 
+	display:inline;
+}
+.footer_bottom_list li a { 
+	color:#999; margin:0 12px;
+	text-decoration: none;
+}
+.footer_bottom_list li a:hover{ 
+	color:#860e0e; 
+	
+}
+.text-center{
+	text-align: center;
+}
+.social_footer_ul { 
+	display:table; 
+	margin:15px auto 0 auto; 
+	list-style-type:none;  
+}
+.social_footer_ul li { 
+	padding-left:20px; 
+	padding-top:10px; 
+	float:left; 
+}
+.social_footer_ul li a { 
+	color:#CCC; 
+	border:1px solid #CCC; 
+	padding:8px;
+	border-radius:50%;
+}
+.social_footer_ul li i {  
+	width:20px; 
+	height:20px; 
+	text-align:center;
+}
+
+
+
+

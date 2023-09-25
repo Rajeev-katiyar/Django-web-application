@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4c0d3b394a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/header.css">
+    <title>Document</title>
+</head>
+<body>
+<!-- start hearder section -->
+<header>
+  <section class="navbar">
+    <div class="header1">
+      <div class="logo1">
+        <img src="/static/img/logoeb.jpg" alt="Logo">
+      </div>
+      <div class="logo">
+        <h1><a href= "#"> Engineer<span>bhaiya</span></a></h1>
+      </div>
+      <ul>
+        <li class="#"><a href="{% url 'home'%}">Home</a></li>
+        <li class="#"><a href="#">About</a></li>
+        <li>
+          <a href="#">Services <i class="fas fa-caret-down"></i></a>
+          <div class="dropdown">
+            <ul>
+              <li><a href="#">Hotel</a></li>
+              <li><a href="#">Restaurant</a></li>
+              <li><a href="#">Travel</a></li>
+              <li><a href="#">Guides</a></li>
+              <li><a href="#">Service</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="{% if request.path == 'contact/' %}active{% endif %}"><a href="#">Contact us</a></li>
+      </ul>
+      <button class="btn1"><a href="{% url 'login' %}">Login</a></button>
+      <button class="btn1"><a href="{% url 'signup'%}">SignUp</a></button>
+    </div>
+  </section>
+</header>
+</body>
+</html>
+<!-- end the header section -->

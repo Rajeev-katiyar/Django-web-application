@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Document</title>
+	
+</head>
+<body>
+<input type="button" value="add" onclick="myadd()">
+<input type="button" value="delete" onclick="mydelete()">
+<h1 id="one"></h1>
+
+<script>
+
+var a=[50,60];
+
+function myadd()
+{
+	var b = prompt("enter data");
+	// a.push(b);
+	a.unshift(b);
+	console.log(a);
+	document.getElementById('one').innerHTML=a.length;
+}
+
+function mydelete()
+{
+	
+	// a.pop();
+	a.shift();
+	console.log(a);
+	document.getElementById('one').innerHTML=a.length;
+}
+
+
+
+
+
+</script>
+
+
+</body>
+</html>

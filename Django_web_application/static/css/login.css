@@ -1,0 +1,223 @@
+.background-login{
+    background-image: url("/static/img/backgroun3.jpg");
+    background-position: center;
+    background-size:cover ;
+    height:85vh;
+    width: 100%;
+    filter: blur(px);
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+
+ 
+
+.container-login{
+        display: flex;
+   
+        position: absolute;
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%,-50%);
+        width: 85%;
+        height: 550px;
+        margin-top: 20px;
+        background: url("/static/img/backgroun3.jpg") no-repeat;
+        background-position: center;
+        background-size:cover ;
+        border-radius: 20px;
+        overflow: hidden;
+        
+        
+}
+.item-login{
+    width: 58%;
+    height: 100%;
+    color: #fff;
+    background: transparent;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    animation:first 2s ease;
+}
+.item-login h2 span{
+    color:#0073ff;
+}
+
+.text-item-login{
+    width: 50%;
+    height: 500px;
+}
+
+.item-login .logo-login{
+    color: #fff;
+    font-size: 30px;
+    margin-left: 45px;
+
+}
+.text-item-login h2{
+    font-size: 40px;
+    line-height: 1;
+    color: #fff;
+    margin-left: 45px;
+
+}
+.text-item-login h2 span{
+
+    
+    color: #fff;
+  
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+   
+
+}
+.text-item-login p{
+    font-size: 18px;
+    margin: 25px 45px;
+    color: #fff;
+    width: 350px;
+
+}
+.social-icon-login{
+    margin-left: 40px;
+}
+.social-icon-login a i{
+    color: #fff;
+    font-size: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: .5s ease;
+   
+}
+.social-icon-login a:hover i{
+    transform: scale(1.2);
+}
+.container-login .login-section{
+    width: 50%;
+    height: 700px;
+    width: calc(100% - 25%);
+    height: 100%;
+    color: #fff;
+    backdrop-filter: blur(5px);
+    animation:second 2s ease;
+}
+.login-section .form-box-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.login-section .form-box-login h2{
+    text-align: center;
+    font-size: 30px;
+}
+.form-box-login .input-box-login{
+    width: 340px;
+    height: 50px;
+    border-bottom: 2px solid#fff;
+    margin: 30px 0;
+    position: relative;
+}
+.input-box-login input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding-right: 28px;
+}
+.input-box-login label{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 16px;
+    font-weight: 600px;
+    pointer-events: none;
+    transition: .5s ease;
+}
+.input-box-login .icon-login{
+    position: absolute;
+    top: 13px;
+    right: 0;
+    font-size: 19px;
+}
+.input-box-login input:focus~ label,
+.input-box-login input:valid~ label{
+    top: -5px;
+
+}
+.remember-password-login{
+    font-size: 14px;
+    font-weight: 500;
+    margin: -15px 0 15px ;
+    display: flex;
+    justify-content: space-between;
+}
+.remember-password-login label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+.remember-password-login a:hover{
+    text-decoration: underline;
+}
+.btn-login{
+    background: #fff;
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #f72d7a;
+    font-size: 16px;
+    color: #fff;
+    box-shadow: rgba(0,0,0,0.4);
+    text-decoration: none;
+    
+}
+.btn-login a{
+    text-decoration: none;
+}
+.create-account-login{
+    font-size: 16.5px;
+    text-align: center;
+    margin: 25px;
+}
+.create-account-login p a{
+    color: #fff;
+    font-weight: 600px;
+    text-decoration: none;
+}
+.create-account-login p a:hover{
+    text-decoration: underline;
+}
+@keyframes first{
+    0%{
+        opacity:0;
+        transform:translateY(50px);
+
+    }
+    100%{
+        opacity:1;
+        transform:translateY(0px);
+        
+    }
+}
+@keyframes second{
+    0%{
+        opacity:0;
+        transform:translateX(-50px);
+
+    }
+    100%{
+        opacity:1;
+        transform:translateX(0px);
+        
+    }
+}

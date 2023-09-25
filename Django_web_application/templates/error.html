@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Error</title>
+    <link rel="stylesheet" href="/static/css/error.css">
+</head>
+<body>
+    <br><br>
+
+    <div class="error-box">
+        <h1>Login Error</h1>
+        <p>Incorrect email or password. Please try again.</p>
+    </div>
+    <br><br>
+    <button class="btn1"><a href="{% url 'login' %}">Please Try again</a></button>
+</body>
+<br><br>
+</html>
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Error</title>
+</head>
+<body>
+    <h1>Login Error</h1>
+    <p>Incorrect email or password. Please try again.</p>
+</body>
+</html>

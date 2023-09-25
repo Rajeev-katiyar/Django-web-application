@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Document</title>
+</head>
+<body>
+<p onclick="myfun()" id="one">click to</p>
+
+<script>
+function myfun()
+{
+	var a = new Date();
+	console.log(a);
+	console.log(typeof(a));
+
+	var b = a.getHours();
+	var c = a.getMinutes();
+	var d = a.getSeconds();
+
+	// document.getElementById("one").innerHTML=b+":"+c+":"+d;
+	document.getElementById("one").innerHTML=`${b}:${c}:${d}`;
+}
+
+var y="ducat india";
+function abc()
+{
+	var x = `jhsdfj sjdfh jsd fhjsh
+	 djfhsjkdfh jksfklskfh sjkfhjks
+	 ddhfjkshfjkhsjkfhkjsh kls hdfk
+	  hsdjfhjksdh ${y} fjksh dfjkh
+	 skdjfhjksh fjkshdfjkhsdjfhsdj`;
+	console.log(x);
+}
+
+abc();
+
+
+</script>
+
+
+</body>
+</html>
